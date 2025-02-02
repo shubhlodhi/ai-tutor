@@ -16,6 +16,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { useContext } from 'react'
 
 function App() {
+  const url = "https://ai-tutor-l9m5.onrender.com"
   const [count, setCount] = useState(false)
   const [apidata , setapidata] = useState("")
   const [op ,setop] = useState()
